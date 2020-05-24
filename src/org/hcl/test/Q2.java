@@ -10,7 +10,7 @@ public class Q2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\USER\\eclipse-workspace\\Scanner1\\AKSHAYA\\Selenium-Day1-BrowserLaunch\\Day8 Task-Alert\\Browser\\chromedriver.exe");
+				"C:\\Users\\USER\\Desktop\\clonning\\Git\\Alert-Task\\Alert-Task\\Browser\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://netbanking.hdfcbank.com/netbanking/?_ga=2.176378149.1819882415.1533883212-608727520.1532670997");
 		driver.manage().window().maximize();
@@ -24,6 +24,7 @@ public class Q2 {
 		Alert a1=driver.switchTo().alert();
 		Thread.sleep(3000);
 		a1.accept();
+		System.out.println("clone task done");
 		
 	}
 
