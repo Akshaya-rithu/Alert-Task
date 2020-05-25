@@ -23,6 +23,11 @@ public class Q3canaraalert {
 		
 		Alert a1=driver.switchTo().alert();
 		a1.accept();
+		
+		System.out.println("I clonned my project");
+		System.out.println("Added 2 lines ");
+		
+		
 	}
 
 }
